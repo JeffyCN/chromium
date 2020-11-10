@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+export DH_VERBOSE = 1
+
+override_dh_auto_configure:
+override_dh_auto_build:
+override_dh_auto_test:
+override_dh_shlibdeps:
+
+override_dh_auto_install:
+	mkdir -p debian/tmp
+	tar xf $(DEB_HOST_GNU_TYPE)/*.tgz -C debian/tmp/
+
+%:
+	dh $@
