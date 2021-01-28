@@ -1,3 +1,9 @@
+chromium-x11 (87.0.4280.141) stable; urgency=medium
+
+  * Update to 87.0.4280.141.
+
+ -- Jeffy Chen <jeffy.chen@rock-chips.com>  Thu, 28 Jan 2021 14:32:10 +0800
+
 chromium-x11 (86.0.4240.111) stable; urgency=medium
 
   * Initial release.
