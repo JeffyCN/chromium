@@ -1,67 +1,27 @@
-The MIT License (MIT)
+(Copied from src/liblouis/liblouis.h.in)
 
-Copyright (c) 2015 Bodymovin
+/* liblouis Braille Translation and Back-Translation Library
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+   Based on the Linux screenreader BRLTTY, copyright (C) 1999-2006 by
+   The BRLTTY Team
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+   Copyright (C) 2004, 2005, 2006, 2009 ViewPlus Technologies, Inc.
+   www.viewplus.com and JJB Software, Inc. www.jjb-software.com
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+   liblouis is free software: you can redistribute it and/or modify it
+   under the terms of the GNU Lesser General Public License as
+   published by the Free Software Foundation, either version 3 of the
+   License, or (at your option) any later version.
 
+   liblouis is distributed in the hope that it will be useful, but
+   WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+   Lesser General Public License for more details.
 
-################################################################################
-# License headers for subpackages
-################################################################################
+   You should have received a copy of the GNU Lesser General Public
+   License along with this program. If not, see
+   <http://www.gnu.org/licenses/>.
 
-Transformation Matrix v2.0
-(c) Epistemex 2014-2015
-www.epistemex.com
-By Ken Fyrstenberg
-Contributions by leeoniya.
-License: MIT, header required.
+   Maintained by John J. Boyer john.boyer@abilitiessoft.com
+   */
 
-
-################################################################################
-
-Copyright 2014 David Bau.
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-################################################################################
-
-BezierEasing - use bezier curve for transition easing function
-by Gaëtan Renaudeau 2014 - 2015 – MIT License
-
-Credits: is based on Firefox's nsSMILKeySpline.cpp
-Usage:
-var spline = BezierEasing([ 0.25, 0.1, 0.25, 1.0 ])
-spline.get(x) => returns the easing value | x must be in [0, 1] range
